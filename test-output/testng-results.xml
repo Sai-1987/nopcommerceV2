@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T18:38:21 CEST" name="nopCommerce" finished-at="2022-05-30T18:38:45 CEST" duration-ms="23281">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T18:38:21 CEST" name="Test1" finished-at="2022-05-30T18:38:45 CEST" duration-ms="23281">
+      <class name="com.nopcommerce.tesCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.nopcommerce.tesCases.TC_LoginTest_001@5b239d7d]" started-at="2022-05-30T18:38:22 CEST" name="setup" finished-at="2022-05-30T18:38:30 CEST" duration-ms="8592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.nopcommerce.tesCases.TC_LoginTest_001@5b239d7d]" started-at="2022-05-30T18:38:30 CEST" name="loginTest" finished-at="2022-05-30T18:38:44 CEST" duration-ms="14053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.tesCases.TC_LoginTest_001@5b239d7d]" started-at="2022-05-30T18:38:45 CEST" name="tearDown" finished-at="2022-05-30T18:38:45 CEST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.tesCases.TC_LoginTest_001 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- nopCommerce -->
+</testng-results>
